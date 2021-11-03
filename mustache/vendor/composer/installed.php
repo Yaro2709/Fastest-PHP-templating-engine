@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'html2text/html2text' => array(
+            'pretty_version' => '4.3.1',
+            'version' => '4.3.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../html2text/html2text',
+            'aliases' => array(),
+            'reference' => '61ad68e934066a6f8df29a3d23a6460536d0855c',
+            'dev_requirement' => false,
+        ),
+        'mustache/mustache' => array(
+            'pretty_version' => 'v2.13.0',
+            'version' => '2.13.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mustache/mustache',
+            'aliases' => array(),
+            'reference' => 'e95c5a008c23d3151d59ea72484d4f72049ab7f4',
+            'dev_requirement' => false,
+        ),
+    ),
+);
